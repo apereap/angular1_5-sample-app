@@ -300,7 +300,7 @@ export const patients = {
 
 ### Data
 
-Let's create a mock json file under the "MockDataFolder" let's call it _patients.json
+Let's create a mock json file under the "MockDataFolder" let's call it _patients.json_
 
 ```json
 [
@@ -353,7 +353,7 @@ Let's create a mock json file under the "MockDataFolder" let's call it _patients
 ```
 
 We need to copy this mock data to the folder where the dev server is going to run,
-in order to do this we are going to use _copy_webpack_plugin, let's install it
+in order to do this we are going to use _copy_webpack_plugin_, let's install it
 
 ```
 npm install copy-webpack-plugin --save-dev
@@ -425,7 +425,7 @@ Now it's time to load the information about the patient's appointments in the
 appointments table.
 
 First of all let's import some needed name space (patients entitiy, plus
-  patients data api) in our _patientsList.ts
+  patients data api) in our _patientsList.ts_
 
 ```javascript
 import {PatientAPI} from "../../api/patientAPI";
