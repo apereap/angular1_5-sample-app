@@ -98,7 +98,7 @@ class LoginController {
   sampleBinding : string;
 
   constructor() {
-    this.sampleBinding = "Hello form Login";
+    this.sampleBinding = "Hello from Login";
   }
 }
 

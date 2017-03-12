@@ -43,9 +43,11 @@ export const patientsList = {
              <td>{{patient.name}}</td>
              <td>
                {{patient.specialty}}
-               <span class="hidden-sm hidden-md hidden-lg pull-right glyphicon glyphicon-pencil"
-                 >
-               </span>
+               <a ui-sref="patientEdit({patientId: {{patient.id}}})">
+                 <span class="hidden-sm hidden-md hidden-lg pull-right glyphicon glyphicon-pencil"
+                   >
+                 </span>
+               </a>
              </td>
              <td class="hidden-xs hidden-sm hidden-md">{{patient.doctor}}</td>
              <td class="hidden-xs">{{patient.date}}</td>
